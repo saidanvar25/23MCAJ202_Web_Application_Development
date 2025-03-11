@@ -1,0 +1,70 @@
+body{
+    justify-content: center;
+    background-color: rgb(88, 91, 165);
+}
+
+
+
+.container{
+    
+    width: 22%;
+    padding: 5%;
+    margin-left: 35%;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    text-align: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20%;
+    
+}
+
+.a{
+    margin-bottom: 15px;
+}
+
+.head{
+    margin-bottom: 20px;
+   
+}
+
+.a{
+    font-size: 20px;
+    max-width: 10px;
+   
+}
+
+#name{
+    width: 325px;
+    height: 30px;
+    border-width: 3px;
+    border-radius: 10px;   
+}
+
+#email{
+    width: 325px;
+    height: 30px;
+   border-width: 3px;
+   border-radius: 10px;
+    
+}
+
+#com{
+    width: 325px;
+    height: 60px;
+   border-width: 3px;
+   border-radius: 10px;
+    
+}
+
+button{
+    width: 280px;
+    height: 35px;
+    border-width: 3px;
+    border-radius: 20px;
+    background-color: rgb(109, 137, 213);
+    font-size: medium;
+    font-size-adjust: calc(0.8);
+}
