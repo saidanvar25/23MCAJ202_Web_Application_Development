@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #3905a1, #3a3a3a);
+}
+
+.container {
+    width:400px;
+    max-width: 90%;
+    padding: 40px; 
+    background-color: rgba(94, 184, 190, 0.9);
+    border-radius: 80px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.heading {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.heading h1 {
+    color: #333;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.a {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #070202;
+}
+
+.b {
+    width: 100%;
+    padding: 15px 18px;
+    border: 1px solid #ddd;
+    border-radius: 18px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    background-color: #ffffff;
+    
+}
+
+
+.placeholder {
+    color: #aaa;
+}
+
+
+
+.submitbutton {
+    width: 100%;
+    padding: 5px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #34d310;
+    color: rgb(14, 8, 8);
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+.resetbutton {
+    width: 100%;
+    padding: 5px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    background: #aec00a;
+    color: #060505;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.error {
+            color: red;
+            font-size: 14px;
+            margin-top: 5px;
+}
